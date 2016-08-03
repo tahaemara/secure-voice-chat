@@ -14,6 +14,11 @@ Requirements:
 
 Steps:
 
-Download the zip file which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and the other "Securevoice" for PC and then compile them. Run each jar in its environment.
+1- Download the [zip file](https://github.com/emara-geek/secure-voice-chat/archive/master.zip)
+which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and the other "Securevoice" for PC 
+ 
+2- Compile them.
+
+3- Run each jar in its environment.
 
 
