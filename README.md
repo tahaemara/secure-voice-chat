@@ -1,6 +1,6 @@
 #End to End Voice Encryption between Raspberry pi and PC using AES
 
-Requirements:
+##Requirements:
 
 1- PC or Laptop has java installed in it.
 
@@ -10,7 +10,7 @@ Requirements:
 
 
 
-Steps:
+##Steps:
 
 1- Download the [zip file](https://github.com/emara-geek/secure-voice-chat/archive/master.zip)
 which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and the other "Securevoice" for PC 
@@ -19,7 +19,7 @@ which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and th
 
 3- Run each jar in its environment and enjoy secure chat.
 
-System description: 
+##System description: 
 
 The system consists of two terminal PC and Raspberry PI, Of course they can be two PCs instead of Raspberry Pi.
 
@@ -30,7 +30,7 @@ Every terminal works as a receiver(RX) server and also as a transmitter(TX) clie
 ![alt tag](https://s32.postimg.org/nqjhmr911/Screen_Shot_2016_08_04_at_12_03_35_PM.png)
 
 
-Test video:
+##Test video:
 
 [![Video](http://i.makeagif.com/media/8-04-2016/zOrEso.gif)](https://www.youtube.com/watch?v=LjOTGWgMYy0)
 
