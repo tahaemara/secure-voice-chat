@@ -6,6 +6,9 @@ Java provides us a way to capture sound data (Digital) from mic through TargetDa
 Sending and receiving process done simultaneously(Full Duplex) and each terminal has parameters (IP and port) as receiver and as transmitter so pay attention when you assign values of IPs and ports as show in the code.
 Every terminal works as a receiver server and also as a transmitter client .
 
+![alt tag](https://s32.postimg.org/nqjhmr911/Screen_Shot_2016_08_04_at_12_03_35_PM.png)
+
+
 Requirements:
 
 1- PC or Laptop has java installed in it.
