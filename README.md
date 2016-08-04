@@ -18,6 +18,7 @@ Requirements:
 3-External speaker and usb sound card for raspberry pi.
 
 
+
 Steps:
 
 1- Download the [zip file](https://github.com/emara-geek/secure-voice-chat/archive/master.zip)
