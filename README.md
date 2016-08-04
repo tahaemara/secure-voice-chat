@@ -2,7 +2,7 @@
 
 The system consists of two terminal PC and Raspberry PI, Of course they can be two PCs instead of Raspberry Pi.
 
-Java provides us a way to capture sound data (Digital) from mic through TargetDataLine interface. Captured data is saved to byte buffer array and then make the encryption process on this array using AES algorithm and then sent through UDP socket to receiver. In receiver side the packet is received and converted from encrypted form and sent the voice data to speaker.
+Java provides us a way to capture sound data (Digital) from mic through TargetDataLine interface. Captured data is saved to byte buffer array and then make the encryption process on this array using AES algorithm and then it is sent through UDP socket to receiver. In receiver side the packet is received and converted from encrypted form and sent the voice data to speaker.
 Sending and receiving process done simultaneously(Full Duplex) and each terminal has parameters (IP and port) as receiver and as transmitter so pay attention when you assign values of IPs and ports as show in the code.
 Every terminal works as a receiver server and also as a transmitter client .
 
@@ -22,6 +22,11 @@ which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and th
  
 2- Compile them.
 
-3- Run each jar in its environment.
+3- Run each jar in its environment and enjoy secure chat.
+
+Test video:
+
+[![Video](http://i.makeagif.com/media/8-04-2016/zOrEso.gif)](https://www.youtube.com/watch?v=LjOTGWgMYy0)
+
 
 
