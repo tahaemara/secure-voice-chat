@@ -6,8 +6,11 @@
 
 2- Raspberry pi run Raspbian(already Java is installed in it).
 
-3-External speaker and usb sound card for raspberry pi.
+3- External speaker and usb sound card for raspberry pi.
 
+4- USB power supply.
+
+5- Netbeans IDE to compile the source code.
 
 
 ##Steps:
@@ -21,11 +24,12 @@ which contains two netbeans project one for Rapberry Pi "Securevoice_rpi" and th
 
 ##System description: 
 
-The system consists of two terminal PC and Raspberry PI, Of course they can be two PCs instead of Raspberry Pi.
+The system consists of two terminals, a PC and a Raspberry PI on same network.
 
-Java provides us a way to capture sound data (Digital) from mic through TargetDataLine interface. Captured data is saved to byte buffer array and then make the encryption process on this array using AES algorithm and then it is sent through UDP socket to receiver. In receiver side the packet is received and converted from encrypted form and sent the voice data to speaker.
-Sending and receiving process done simultaneously(Full Duplex) and each terminal has parameters (IP and port) as receiver and as transmitter so pay attention when you assign values of IPs and ports as show in the code.
-Every terminal works as a receiver(RX) server and also as a transmitter(TX) client .
+Java provides us a way to capture sound data (Digital) from a mic through TargetDataLine interface. Captured data is saved to a byte buffer array and then the encryption process made on this array using AES algorithm and finally it is sent through the UDP socket to receiver. On the receiver side, the packet is received and converted from encrypted form and sent the voice data to the speaker.
+
+The sending and receiving process is done simultaneously (Full Duplex) and each terminal has parameters (IP and port) as receiver and as transmitter, so pay attention when you assign values of IPs and ports as show in the code Github.
+Every terminal works as a receiver (RX) server and also as a transmitter (TX) client as shown in the next image.  
 
 ![alt tag](https://s32.postimg.org/nqjhmr911/Screen_Shot_2016_08_04_at_12_03_35_PM.png)
 
@@ -33,6 +37,10 @@ Every terminal works as a receiver(RX) server and also as a transmitter(TX) clie
 ##Test video:
 
 [![Video](http://i.makeagif.com/media/8-04-2016/zOrEso.gif)](https://www.youtube.com/watch?v=LjOTGWgMYy0)
+
+## Project page on my website :
+
+[Emaraic.com](http://emaraic.com/secure-voice-chat/)
 
 
 
