@@ -40,7 +40,7 @@ Every terminal works as a receiver (RX) server and also as a transmitter (TX) cl
 
 ## Project page on my website :
 
-[Emaraic.com](http://emaraic.com/secure-voice-chat/)
+[Emaraic.com](http://emaraic.com/blog/secure-voice-chat/)
 
 
 
